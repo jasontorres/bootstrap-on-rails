@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Bootstrap on Rails
 
 A simpler implementation of Bootstap 3 for Rails. Only packaged assets. No bloat. Pure Less.
@@ -33,7 +32,3 @@ It's important to note that variables.less is taken out of bootstrap and require
 Bootstrap on Rails is under Apache2 License too.
 
 Jason Torres of [Proudcloud.net](http://www.proudcloud.net)
-=======
-bootstrap-on-rails
-==================
->>>>>>> 6ca9d6b48c94d4361d4515d8b2f8c96b68161d4d
