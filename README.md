@@ -20,6 +20,10 @@ Add a stylesheet or insert to your existing less file
     // @linkColor: red;
     // or import a variable file
     // @import "variables";
+    
+    // Uncomment For glyphicons + asset pipeline.
+    // @icon-font-path:          "../bootstrap/";
+    // @icon-font-name:          "glyphicons-halflings-regular";
 
     @import "bootstrap/bootstrap";
 
