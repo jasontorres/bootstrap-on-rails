@@ -20,6 +20,7 @@ Gem::Specification.new do |s|
 
   s.licenses = ["Apache v2"]
 
+  s.add_dependency "less-rails"
   # specify any dependencies here; for example:
   # s.add_development_dependency "rspec"
   # s.add_runtime_dependency "railties"
