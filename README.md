@@ -36,11 +36,12 @@ To add the bootstrap javascript libraries, add to your application.js file
     //= require bootstrap/collapse
     //= require bootstrap/dropdown
     //= require bootstrap/modal
+    //= require bootstrap/tooltip
     //= require bootstrap/popover
     //= require bootstrap/scrollspy
     //= require bootstrap/tab
-    //= require bootstrap/tooltip
     //= require bootstrap/transition
+    
 
 It's important to note that variables.less is taken out of bootstrap and required explicitly to support overriding variables, another motivation why I needed to do this gem.
 
