@@ -11,6 +11,9 @@ A simpler implementation of Bootstap 3 for Rails. Only packaged assets. No bloat
 
 Just add to your Gemfile
 
+    gem 'therubyracer', :platform => :ruby
+    gem 'less-rails'
+
     gem 'bootstrap-on-rails'
 
 Add a stylesheet or insert to your existing less file
