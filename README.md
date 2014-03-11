@@ -2,7 +2,7 @@
 
 A simpler implementation of Bootstap 3 for Rails. Only packaged assets. No bloat. Pure Less.
 
-* Current Bootstrap Version: 3.0.3
+* Current Bootstrap Version: 3.1.1
 * Supports Rails 3.1+ and Rails 4
 * Less only
 * Twitter Variables are easily overridable
@@ -37,6 +37,39 @@ Add a stylesheet or insert to your existing less file
     //         asset-url("bootstrap/glyphicons-halflings-regular.svg#glyphicons-halflingsregular") format('svg');
     // }
     // see this for more info about glyphicons: https://github.com/jasontorres/bootstrap-on-rails/issues/3
+
+Now you can even add individual bootstrap mixins to your own LESS files if you need to keep things lightweight.
+To add a particular mixin use one of the following:
+
+    @import "bootstrap/mixins/hide-text";
+    @import "bootstrap/mixins/opacity";
+    @import "bootstrap/mixins/image";
+    @import "bootstrap/mixins/labels";
+    @import "bootstrap/mixins/reset-filter";
+    @import "bootstrap/mixins/resize";
+    @import "bootstrap/mixins/responsive-visibility";
+    @import "bootstrap/mixins/size";
+    @import "bootstrap/mixins/tab-focus";
+    @import "bootstrap/mixins/text-emphasis";
+    @import "bootstrap/mixins/text-overflow";
+    @import "bootstrap/mixins/vendor-prefixes";
+    @import "bootstrap/mixins/alerts";
+    @import "bootstrap/mixins/buttons";
+    @import "bootstrap/mixins/panels";
+    @import "bootstrap/mixins/pagination";
+    @import "bootstrap/mixins/list-group";
+    @import "bootstrap/mixins/nav-divider";
+    @import "bootstrap/mixins/forms";
+    @import "bootstrap/mixins/progress-bar";
+    @import "bootstrap/mixins/table-row";
+    @import "bootstrap/mixins/background-variant";
+    @import "bootstrap/mixins/border-radius";
+    @import "bootstrap/mixins/gradients";
+    @import "bootstrap/mixins/clearfix";
+    @import "bootstrap/mixins/center-block";
+    @import "bootstrap/mixins/nav-vertical-align";
+    @import "bootstrap/mixins/grid-framework";
+    @import "bootstrap/mixins/grid";
 
 To add the bootstrap javascript libraries, add to your application.js file
 
