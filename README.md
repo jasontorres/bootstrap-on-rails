@@ -2,7 +2,7 @@
 
 A simpler implementation of Bootstap 3 for Rails. Only packaged assets. No bloat. Pure Less.
 
-* Current Bootstrap Version: 3.0.3
+* Current Bootstrap Version: 3.1.1
 * Supports Rails 3.1+ and Rails 4
 * Less only
 * Twitter Variables are easily overridable
