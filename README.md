@@ -2,7 +2,7 @@
 
 A simpler implementation of Bootstap 3 for Rails. Only packaged assets. No bloat. Pure Less.
 
-* Current Bootstrap Version: 3.1.1
+* Current Bootstrap Version: 3.2.0
 * Supports Rails 3.1+ and Rails 4
 * Less only
 * Twitter Variables are easily overridable
@@ -56,10 +56,15 @@ To add the bootstrap javascript libraries, add to your application.js file
 
 It's important to note that variables.less is taken out of bootstrap and required explicitly to support overriding variables, another motivation why I needed to do this gem.
 
+## Notes
+
+* bootstrap-on-rails now follows the same bootstrap versioning
+* An example project can be seen here https://github.com/jasontorres/bootstrap-on-rails-example
+
 ## License
 
-[Bootstrap 3](http://getbootstrap.com) is licensed under [Apache2 License](https://github.com/twbs/bootstrap/blob/master/LICENSE).
+[Bootstrap 3](http://getbootstrap.com) is licensed under [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
-Bootstrap on Rails is under Apache2 License too.
+Bootstrap on Rails is under MIT License
 
 Jason Torres of [Proudcloud.net](http://www.proudcloud.net)
