@@ -59,10 +59,11 @@ It's important to note that variables.less is taken out of bootstrap and require
 ## Notes
 
 * bootstrap-on-rails now follows the same bootstrap versioning
+* An example project can be seen here https://github.com/jasontorres/bootstrap-on-rails-example
 
 ## License
 
-[Bootstrap 3](http://getbootstrap.com) is licensed under [Apache2 License](https://github.com/twbs/bootstrap/blob/master/LICENSE).
+[Bootstrap 3](http://getbootstrap.com) is licensed under [MIT License](https://github.com/twbs/bootstrap/blob/master/LICENSE).
 
 Bootstrap on Rails is under MIT License
 
