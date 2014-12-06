@@ -56,6 +56,10 @@ To add the bootstrap javascript libraries, add to your application.js file
 
 It's important to note that variables.less is taken out of bootstrap and required explicitly to support overriding variables, another motivation why I needed to do this gem.
 
+## Upgrading
+
+If you're using your own custom variables.less, once in a while you'll get missing variables. Just in case that happens, just look it up on the main variables.less file here: https://github.com/twbs/bootstrap/blob/master/less/variables.less
+
 ## Notes
 
 * bootstrap-on-rails now follows the same bootstrap versioning
