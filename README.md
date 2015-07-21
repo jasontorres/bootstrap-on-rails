@@ -1,5 +1,7 @@
 # Bootstrap on Rails
 
+This project is now discontinued. Use the official https://github.com/twbs/bootstrap-sass for better support. The `sass` version works really well now.
+
 A simpler implementation of Bootstap 3 for Rails. Only packaged assets. No bloat. Pure Less.
 
 * Current Bootstrap Version: 3.3.1
